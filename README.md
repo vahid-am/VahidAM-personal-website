@@ -1,3 +1,9 @@
+<style>
+    h1, header {
+        display: none;
+    }
+</style>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
