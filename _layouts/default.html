@@ -17,10 +17,6 @@
             padding: 10px 0;
             text-align: center;
         }
-        #home h2 {
-            color: #0000FF;
-            font-size: 40px;
-        }
         nav ul {
             background: #444;
             list-style: none;
@@ -35,6 +31,24 @@
         nav ul li a {
             color: #fff;
             text-decoration: none;
+        }
+        #home {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        #home img {
+            width: 150px; /* Adjust image size */
+            height: auto;
+            border-radius: 50%; /* Circular shape */
+            margin-right: 20px; /* Space between image and text */
+        }
+        #home h2 {
+            color: #0000FF;
+            font-size: 40px;
+            margin: 0;
         }
         section {
             padding: 20px;
@@ -63,8 +77,13 @@
         </ul>
     </nav>
     <section id="home">
-        <h2>Vahid Azimi Mousolou</h2>
-        <p>Write about yourself here.</p>
+        <!-- Picture on the left -->
+        <img src="your-image.jpg" alt="Vahid Azimi Mousolou">
+        <!-- Text on the right -->
+        <div>
+            <h2>Vahid Azimi Mousolou</h2>
+            <p>Write about yourself here.</p>
+        </div>
     </section>
     <section id="about">
         <h2>About Me</h2>
@@ -83,4 +102,3 @@
     </footer>
 </body>
 </html>
-
