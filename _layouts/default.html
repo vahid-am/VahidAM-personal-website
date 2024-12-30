@@ -40,10 +40,10 @@
             margin: auto;
         }
         #home img {
-            width: 150px; /* Adjust image size */
+            width: 150px;
             height: auto;
-            border-radius: 50%; /* Circular shape */
-            margin-right: 20px; /* Space between image and text */
+            border-radius: 50%;
+            margin-right: 20px;
         }
         #home h2 {
             color: #0000FF;
@@ -55,7 +55,7 @@
             line-height: 1.6;
         }
         #home p strong {
-            color: #333; /* Make labels stand out */
+            color: #333;
         }
         section {
             padding: 20px;
@@ -69,6 +69,16 @@
             padding: 10px 0;
             margin-top: 20px;
         }
+        @media screen and (max-width: 768px) {
+            #home {
+                flex-direction: column;
+                text-align: center;
+            }
+            #home img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -80,42 +90,40 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#Research">Research</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="contact.html">Links</a></li>
+            <li><a href="#Links">Links</a></li>
         </ul>
     </nav>
     <section id="home">
-        <!-- Picture on the left -->
         <img src="_layouts/TEKNAT-191-1600px.jpg" alt="Vahid Azimi Mousolou">
-        <!-- Text on the right -->
         <div>
             <h2>Vahid Azimi Mousolou</h2>
             <p>Department of Physics and Astronomy</p>
-            <p>  Division of Materials Theory</p>
+            <p>Division of Materials Theory</p>
             <p><strong>📧 Email:</strong> vahid.azimi-mousolou@physics.uu.se</p>
             <p>
-               <strong>📍 Visiting Address:</strong> Room 93..., House 9,<br>
-               <span style="display: block; margin-left: 1em;">Ångströmlaboratoriet, Lägerhyddsvägen 1</span>
+                <strong>📍 Visiting Address:</strong> Room 93..., House 9,<br>
+                <span style="display: block; margin-left: 1em;">Ångströmlaboratoriet, Lägerhyddsvägen 1</span>
             </p>
             <p><strong>📬 Postal Address:</strong> Box 516, 751 20 UPPSALA</p>
         </div>
     </section>
     <section id="Research">
-          <h2>Research</h2>
-          <p>My research interests broadly span:</p>
-            <ul>
-              <li>Quantum Information Science</li>
-              <li>Machine Learning</li>
-              <li>Optimization</li>
-            </ul>
-        <p> I am particularly interested in developing hybrid quantum-classical machine learning models and optimization methods to uncover 
+        <h2>Research</h2>
+        <p>My research interests broadly span:</p>
+        <ul>
+            <li>Quantum Information Science</li>
+            <li>Machine Learning</li>
+            <li>Optimization</li>
+        </ul>
+        <p>I am particularly interested in developing hybrid quantum-classical machine learning models and optimization methods to uncover 
             and leverage key quantum properties in magnetic materials. I am also keen on the potential of combining AI with quantum technologies
-            to provide innovative solutions for addressing combinatorially complex challenges across various fields, including: </p>
-            <ul>
-              <li>Finnance</li>
-              <li>Logistics</li>
-              <li>Healthcare</li>
-            </ul>
-        <p> In general, my research focuses on characterizing, modeling, simulating, and discovering optimal solid-state nanostructures for quantum
+            to provide innovative solutions for addressing combinatorially complex challenges across various fields, including:</p>
+        <ul>
+            <li>Finance</li> <!-- Corrected typo here -->
+            <li>Logistics</li>
+            <li>Healthcare</li>
+        </ul>
+        <p>In general, my research focuses on characterizing, modeling, simulating, and discovering optimal solid-state nanostructures for quantum
             information processing and quantum communication. The realization and understanding of non-classical correlations, particularly quantum
             entanglement and Bell-type non-locality, with an emphasis on many-particle solid-state systems, play significant roles in my investigations.
         </p>
@@ -126,10 +134,15 @@
     </section>
     <section id="Links">
         <h2>Links</h2>
-        <p>Provide your contact details here.</p>
+        <p>Here are some important links:</p>
+        <ul>
+            <li><a href="https://www.researchgate.net" target="_blank">ResearchGate</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com" target="_blank">GitHub</a></li>
+        </ul>
     </section>
     <footer>
-        <p>&copy; 2024 My Personal Webpage</p>
+        <p>&copy; 2024 Vahid Azimi Mousolou</p>
     </footer>
 </body>
 </html>
